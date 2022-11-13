@@ -20,3 +20,11 @@ btn.addEventListener("click", () => {
         btn.innerText = btn.innerText - 1;
     }
 });
+
+pbtn.addEventListener("click", () => {
+    btn.innerText = +btn.innerText + + 1;
+
+        if(btn.innerText == 5) {
+            pbtn.style.visibility = "hidden";
+        }
+});
