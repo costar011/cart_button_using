@@ -22,4 +22,27 @@
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    width: 100%;
+    background: #1f4690;
+    border: none;
+    padding: 15px 35px;
+
+    font-size: 0.9rem;
+    color: #ffff;
+    cursor: pointer;
+    outline: none;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #1f47908b;
+}
+
+.minusBtn,
+.plusBtn {
+    display: none;
+    font-weight: 700;
+    margin: 0 5px;
 }
