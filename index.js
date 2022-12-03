@@ -14,4 +14,13 @@ mbtn.addEventListener("click", () => {
   if (btn.innerText == 5) {
     pbtn.style.visibility = "hidden";
   }
+
+  if (btn.innerText < 2) {
+    btn.innerText = "ADD TO CART";
+    pbtn.style.visibility = "visible";
+    pbtn.style.display = "none";
+    mbtn.style.display = "none";
+  } else {
+    btn.innerText = btn.innerText - 1;
+  }
 });
